@@ -1,0 +1,6 @@
+services:
+  speech2text:
+    build:
+      context: .
+    ports:
+      - "5000:5000"
